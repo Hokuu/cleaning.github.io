@@ -1,0 +1,531 @@
+* {
+	margin: 0 ;
+	padding: 0;
+}
+
+
+
+html {
+	scroll-behavior: smooth;
+
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+h1{
+	font-size: 72px;
+	font-weight: 500;
+	color: #fff;
+}
+
+h3 {
+	font-size: 36px;
+	font-weight: 300;
+	color: #000;
+	margin-left: 80px;
+}
+
+.banner {
+	background: url(../img/background.png) no-repeat center top;
+	width: 100%;
+	max-width: 1920px;
+	height: 1050px;
+}
+
+.container {
+	width: 100%;
+	max-width: 1520px;
+	margin: 0 auto;
+}
+
+.container_logo{
+	position: absolute;
+	
+	padding-top: 33px;
+}
+
+
+
+
+.navbar {
+	padding-top: 33px;
+	padding-bottom: 40px;
+
+	}
+
+.navbar_text {
+	font-family: 'Comfortaa', cursive;
+	font-size: 48px;
+	font-weight: 700;
+	color: #fff;
+	position: absolute;
+	padding-left: 100px;
+	padding-top: 20px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.navbar img {
+	
+	float: left;
+}
+
+nav {
+	margin-top: 27px;
+	float: right;
+}
+
+nav li {
+	display: inline-block;
+	margin-right: 45px;
+
+}
+
+nav li:last-child {
+	margin-right: 0px;
+}
+
+nav a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 30px;
+	font-weight: 500;
+}
+
+.nav__link {
+    vertical-align: top;
+    transition: color .2s linear;
+    position: relative;
+}
+
+.nav__link:after {
+	content: "";
+	display: block;
+	width: 100%;
+	height: 5px;
+	display: none;
+	background-color: #3af6c7;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	z-index: 1;
+
+}
+
+.nav__link:hover {
+	color: #ffffff;
+}
+
+.nav__link:hover:after {
+	display: block;
+}
+
+.clean_photo {
+	margin-top: 100px;
+	float: right;
+}
+
+.clean_photo img {
+	box-shadow: 0 0 50px  black;
+}
+
+header {
+	margin-top: 100px;
+	text-align: left;
+	width: 760px;
+}
+
+header span {
+		font-size: 24px;
+		font-weight: 400;
+		text-align: center;
+	}
+
+.header_logo {
+	margin-top: 75px;
+}
+
+.header_logo img {
+	float: left;
+	width: 47px;
+	position: absolute;
+}
+
+.price_list {
+	width: 100%;
+	max-width: 1920px;
+	
+}
+
+.price_header {
+	width: 100%;
+	max-width: 1520px;
+	margin: 0 auto;
+	margin-top: 175px;
+	
+}
+
+.example {
+	font-size: 60px;
+	font-weight: 700;
+	color: #000;
+}
+
+.home {
+	color: #38f9d7;
+}
+
+.min_example {
+	padding-top: 20px;
+	font-size: 36px;
+	font-weight: 300;
+	color: #000;
+}
+
+.slider {
+	padding-top: 40px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.icon {
+	
+	width: 100%;
+	max-width: 1920px;
+}
+
+.icon_item {
+	display: flex;
+	width: 100%;
+	max-width: 1520px;
+	margin: 0 auto;
+
+}
+
+.icon_items {
+
+	padding-top: 50px;
+	margin: 0 auto ;
+	width: 200px;
+	
+
+}
+
+.icon_img {
+	padding-left: 25px;
+	}
+
+.icon_text {
+
+	vertical-align: top;
+	width: 250px;
+	height: 100px;
+	padding-top: 20px;
+	text-align: center;
+	font-size: 25px;
+	font-weight: 500;
+	color: #000;
+}
+
+.reviews {
+	width: 100%;
+	max-width: 1920px;
+}
+
+.reviews_clients {
+	width: 100%;
+	max-width: 1520px;
+	margin: 0 auto;
+
+}
+
+.clients {
+	
+	flex-wrap: wrap;
+	display: flex;
+	padding-top: 100px;
+
+}
+
+.clients_text {
+	padding-left: 100px;
+	font-size: 60px;
+	font-weight: 700;
+	color: #000;
+	
+}
+
+.clients_item {
+	margin-left: 100px;
+	width: 50%;
+	position: relative;
+	padding-left: 200px;
+	padding-top: 30px;
+	margin-bottom: 60px;
+
+}
+
+.clients_img {
+	padding-top: 30px;
+	width: 110px;
+	height: 110px;
+	border-radius: 50%;
+	position: absolute;
+	top: 0;
+	left: 40px;
+	z-index: 1;
+}
+
+.client_name {
+	margin-bottom: 10px;
+	font-size: 18px;
+	font-weight: 300;
+	color: #000;
+}
+
+.client_city {
+	margin-bottom: 5px;
+	font-size: 18px;
+	font-weight: 300;
+	color: #000;
+}
+
+.client_text {
+	font-size: 30px;
+	font-weight: 400;
+	color: #000;
+}
+
+.client_text:before {
+	content: "";
+	display: block;
+	width: 60px;
+	height: 3px;
+	margin: 15px 0 ;
+	background-color: #38f9d7;
+
+}
+
+.iphone {
+	width: 100%;
+	max-width: 1920px;
+	height: 1300px;
+	
+	
+}
+
+.iphoneX {
+	width: 100%;
+	max-width: 1520px;
+	margin: 0 auto;
+}
+
+.iphone_img {
+	display: flex;
+	float: left;
+	position: relative;
+	
+}
+
+.iphone_icon_logo {
+	display: flex;
+	position: absolute;
+	padding-left: 290px;
+	padding-top: 300px;
+}
+
+.iphone_img span {
+	font-family: 'Comfortaa', cursive;
+	font-size: 48px;
+	font-weight: 700;
+	color: #fff;
+	padding-top: 100px;
+	text-align: center;
+	position: absolute;
+	width: 400px;
+	padding-top: 400px;
+	padding-left: 130px;
+	z-index: 1;
+}
+
+.iphone_text {
+	width: 760px;
+	padding-left: 700px;
+	padding-top: 350px;
+	float: right;
+	position: absolute;
+}
+
+.iphone_number {
+	z-index: 1;
+	text-align: center;
+	position: absolute;
+	padding-left: 150px;
+	padding-top: 700px;
+	font-size: 40px;
+	font-weight: 300;
+	color: #fff;
+	line-height: 60px;
+}
+
+.iphone_text_header {
+
+	font-size: 55px;
+	font-weight: 700;
+	color: #000;
+}
+
+.iphone_text_subtitle {
+	
+	padding-top: 25px;
+	font-size: 24px;
+	font-weight: 400;
+	color: #000;
+}
+
+.iphone_icon {
+
+	display: flex;
+	position: absolute;
+	padding-left: 150px;
+	padding-top: 900px;
+	
+}
+
+.icon_facebook {
+	padding-left: 45px;
+}
+
+.icon_instagram {
+	padding-left: 45px;
+}
+
+.shape {
+	width: 100%;
+	max-width: 1920px;
+	height: 1200px;
+	background: url(../img/sha.png) no-repeat;
+	margin: 0 auto;
+	
+}
+
+.shape_icon {
+	position: absolute;
+}
+
+.shape_text {
+	position: absolute;
+	margin-left: 100px;
+	text-align: left;
+	margin-top: 350px;
+	padding-left: 100px;
+	
+}
+
+.shape_name {
+	font-size: 40px;
+	font-weight: 300;
+	color: #fff;
+}
+
+.shape_number {
+	padding-top: 30px;
+	font-size: 48px;
+	font-weight: 700;
+	color: #fff;
+}
+
+.shape_icon {
+	padding-top: 60px;
+}
+
+.shape_city {
+	padding-top: 30px;
+	font-size: 36px;
+	font-weight: 300;
+	color: #000;
+	padding-left: 50px;
+}
+
+.map {
+	z-index: 1;
+	padding-right: 200px;
+	float: right;
+	margin-top: 350px;
+	border: none;
+	
+}
+
+.map iframe {
+
+	filter: grayscale(100%);
+	width: 500px;
+	height: 500px;
+	box-shadow: 0 0 50px 2px black;
+}
+
+.footer {
+
+	
+	max-width: 1920px;
+	height: 200px;
+	
+	
+}
+
+.footers {
+	width: 100%;
+	max-width: 1520px;
+	margin: 0 auto;
+	padding-top: 1000px;
+
+}
+
+.footer_logo {
+	
+	position: absolute;
+	float: left;
+
+}
+
+.footer_text_logo {
+	font-family: 'Comfortaa', cursive;
+	font-size: 24px;
+	font-weight: 700;
+	color: #fff;
+	position: absolute;
+	padding-left: 100px;
+	padding-top: 30px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.footer_icon {
+	
+	position: relative;
+	float: right;
+}
+
+.footer_img {
+	margin-right: 50px;
+}
+
+.footer_icon img:last-child {
+	padding-right: 0px;
+}
+
+.footer_text {
+	
+	font-size: 20px;
+	font-weight: 300;
+	color: #fff;
+	padding-top: 100px;
+}
